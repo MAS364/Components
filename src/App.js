@@ -1,25 +1,28 @@
-import logo from './logo.svg';
-import './App.css';
+import React from "react";
+import "./index.css";
 
-function App() {
+export default function App() {
   return (
-    <div className="App">
-      <header className="App-header">
-        <img src={logo} className="App-logo" alt="logo" />
-        <p>
-          Edit <code>src/App.js</code> and save to reload.
-        </p>
-        <a
-          className="App-link"
-          href="https://reactjs.org"
-          target="_blank"
-          rel="noopener noreferrer"
-        >
-          Learn React
-        </a>
-      </header>
-    </div>
+    <>
+      <div className="App container text-center">
+        <div className="grid-container ">
+          <a className="grid-card" href="https://searchbox-theta.vercel.app/">
+            <div className="text">Search-Bar</div>
+          </a>
+
+          <a className="grid-card" href="https://pagination-livid.vercel.app/">
+            <div className="text">Pagination</div>
+          </a>
+
+          <a className="grid-card" href="portfolio-mas.netlify.app">
+            <div className="text">Portfolio</div>
+          </a>
+
+          <a className="grid-card" href="portfolio-mas.netlify.app">
+            <div className="text">Portfolio</div>
+          </a>
+        </div>
+      </div>
+    </>
   );
 }
-
-export default App;
