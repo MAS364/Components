@@ -14,8 +14,8 @@ export default function App() {
             <div className="text">Pagination</div>
           </a>
 
-          <a className="grid-card" href="portfolio-mas.netlify.app">
-            <div className="text">Portfolio</div>
+          <a className="grid-card" href="https://table-five-teal.vercel.app/">
+            <div className="text">Table</div>
           </a>
 
           <a className="grid-card" href="portfolio-mas.netlify.app">
