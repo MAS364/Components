@@ -5,6 +5,11 @@ export default function App() {
   return (
     <>
       <div className="App container text-center">
+         
+         <div>
+          <h2 className="heading">Click the component to view</h2>
+         </div>
+
         <div className="grid-container ">
           <a className="grid-card" href="https://searchbox-theta.vercel.app/">
             <div className="text">Search-Bar</div>
@@ -18,9 +23,14 @@ export default function App() {
             <div className="text">Table</div>
           </a>
 
-          <a className="grid-card" href="portfolio-mas.netlify.app">
-            <div className="text">Portfolio</div>
+          <a className="grid-card" href="https://table-pagination-eight.vercel.app/">
+            <div className="text">Table + Searchbar + Pagination</div>
           </a>
+
+          <a className="grid-card" href="https://ruptok-assignment.vercel.app/">
+            <div className="text">Table + Modal</div>
+          </a>
+
         </div>
       </div>
     </>

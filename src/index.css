@@ -3,6 +3,13 @@
   text-align: center;
 }
 
+.heading{
+  border: 1px solid red;
+  padding: 5px;
+  background-color: olive;
+  color:white;
+}
+
 .search-container {
   border: 1px solid red;
   margin: 20px;
