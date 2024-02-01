@@ -31,6 +31,11 @@ export default function App() {
             <div className="text">Table + Modal</div>
           </a>
 
+          <a className="grid-card" href="https://accordion-singleselection.vercel.app/">
+            <div className="text">Accordion - Single Selection</div>
+          </a>
+
+
         </div>
       </div>
     </>
