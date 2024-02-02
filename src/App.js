@@ -7,7 +7,7 @@ export default function App() {
       <div className="App container text-center">
          
          <div>
-          <h2 className="heading">Click the component to view</h2>
+          <h2 className="heading">Click to view the Component</h2>
          </div>
 
         <div className="grid-container ">
